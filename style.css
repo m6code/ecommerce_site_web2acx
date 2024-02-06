@@ -195,6 +195,13 @@ body {
     text-align: center;
 }
 
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
 #product1 .pro {
     width: 23%;
     min-width: 250px;
@@ -205,6 +212,7 @@ body {
     box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
     margin: 15px 0;
     transition: 0.3s ease;
+    position: relative;
 }
 
 #product1 .pro:hover {
@@ -243,5 +251,19 @@ body {
     font-size: 15px;
     font-weight: 700;
     color: #088178;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #ccefd0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
 
